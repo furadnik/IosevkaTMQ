@@ -1,0 +1,25 @@
+name: Build LaTeX document
+on:
+  push:
+    branches:
+      - "master"
+jobs:
+  build_latex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          sudo apt update
+          sudo apt install -y git tar nodejs
+      - name: Build
+        run: ./build.sh
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          automatic_release_tag: "latest"
+          prerelease: false
+          title: "Automatic Release"
+          files: |
+            IosevkaTmq.tar.gz

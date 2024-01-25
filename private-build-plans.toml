@@ -1,0 +1,20 @@
+[buildPlans.IosevkaTmq]
+family = "Iosevka TMQ"
+spacing = "normal"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
+
+[buildPlans.IosevkaTmq.variants.design]
+one = "base"
+brace = "curly"
+lig-equal-chain = "without-notch"
+lig-hyphen-chain = "without-notch"
+
+  [buildPlans.IosevkaTmq.ligations]
+  inherits = "dlig"
+
+[buildPlans.IosevkaTmq.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
