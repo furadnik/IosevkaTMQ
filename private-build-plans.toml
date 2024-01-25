@@ -6,6 +6,7 @@ noCvSs = true
 exportGlyphNames = false
 
 [buildPlans.IosevkaTmq.variants.design]
+capital-w = "straight-vertical-sides-serifless"
 one = "base"
 brace = "curly"
 lig-equal-chain = "without-notch"
