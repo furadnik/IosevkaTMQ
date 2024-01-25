@@ -12,7 +12,7 @@ jobs:
       - name: Install dependencies
         run: |
           sudo apt update
-          sudo apt install -y git tar nodejs
+          sudo apt install -y git tar nodejs ttfautohint
       - name: Build
         run: ./build.sh
       - uses: "marvinpinto/action-automatic-releases@latest"
