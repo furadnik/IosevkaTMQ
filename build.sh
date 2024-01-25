@@ -5,6 +5,6 @@ cp private-build-plans.toml Iosevka
 cd Iosevka
 
 npm install
-npm run build --jCmd=1 -- fft::IosevkaTmq
+npm run build --jCmd=1 -- ttf::IosevkaTmq
 
 tar -czf IosevkaTmq.tar.gz dist
