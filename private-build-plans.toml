@@ -1,7 +1,7 @@
 [buildPlans.IosevkaTmq]
 family = "Iosevka TMQ"
 spacing = "normal"
-serifs = "sans"
+serifs = "slab"
 noCvSs = true
 exportGlyphNames = false
 
