@@ -1,12 +1,11 @@
 [buildPlans.IosevkaTmq]
 family = "Iosevka TMQ"
 spacing = "normal"
-serifs = "slab"
+serifs = "sans"
 noCvSs = true
 exportGlyphNames = false
 
 [buildPlans.IosevkaTmq.variants.design]
-percent = "rings-continuous-slash-also-connected"
 one = "base"
 brace = "curly"
 lig-equal-chain = "without-notch"
