@@ -6,6 +6,7 @@ noCvSs = true
 exportGlyphNames = false
 
 [buildPlans.IosevkaTmq.variants.design]
+percent = "rings-continuous-slash-also-connected"
 one = "base"
 brace = "curly"
 lig-equal-chain = "without-notch"
