@@ -8,3 +8,4 @@ npm install
 npm run build --jCmd=1 -- ttf::IosevkaTmq
 
 tar -czf IosevkaTmq.tar.gz dist
+mv IosevkaTmq.tar.gz ..
