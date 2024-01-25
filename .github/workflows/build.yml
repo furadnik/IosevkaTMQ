@@ -3,6 +3,13 @@ on:
   push:
     branches:
       - "master"
+        
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+  schedule:
+    - cron: '0 3 * * *'
+
 jobs:
   build_font:
     runs-on: ubuntu-latest
