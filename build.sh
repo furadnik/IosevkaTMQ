@@ -9,4 +9,4 @@ npm run build --jCmd=1 -- ttf::IosevkaTmq woff2::IosevkaTmq
 
 tar -czf IosevkaTmq.tar.gz dist
 mv IosevkaTmq.tar.gz ..
-cp dist/IosevkaTmq/woff2/IosevkaTmq-Regular.woff2 ../IosevkaTmq.woff2
+cp dist/IosevkaTmq/WOFF2/IosevkaTmq-Regular.woff2 ../IosevkaTmq.woff2
